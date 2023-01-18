@@ -1,0 +1,88 @@
+.App {
+  float: none;
+  text-align: center;
+  color: #04AA6D;
+  background-color: yellow;
+  border-radius: 90px;
+  line-height: 40px;
+}
+
+.App-logo {
+  display: flex;
+  height: 25vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: idle;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: lightgreen;
+  border-radius: 90px;
+}
+
+.navbar a {
+  float: none;
+  color: black;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.reservation {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+}
+
+.footer  {
+  text-align: center;
+  color: darkolivegreen;
+  font-size: 20px;
+}
+
+.menu {
+  padding: 10px 16px;
+  margin: 20px 0;
+  color: black;
+}
